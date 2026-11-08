@@ -1,0 +1,9 @@
+# Dependencies come back with "npm install", so they do not belong in Git.
+node_modules/
+
+# The .env file holds private settings (like the database connection string), so it stays out of Git.
+.env
+
+# Log files and system leftovers
+*.log
+.DS_Store
